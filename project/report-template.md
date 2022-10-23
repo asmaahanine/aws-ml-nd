@@ -4,9 +4,10 @@
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
 In order to have acceptable predictions, I had to replace negative predictions by zero before submitting them. The reason behind this is that the score used to evaluate the predictions is the RMSLE : Root Mean Squared Logarithmic Error which is defined only for values that are greater or equal to zero. 
-Below is the formula of the RMSLE.
+Below is the formula of the RMSLE taken from an article on medium : https://medium.com/analytics-vidhya/root-mean-square-log-error-rmse-vs-rmlse-935c6cc1802a
 
 ![rmsle.png](img/rmsle.png)
+
 
 ### What was the top ranked model that performed?
 The top ranked model is the weighted ensemble model. In fact, ensemble models are comprised of many weak learners having different logics, then a weighted algorithm is applied to combine the predictions of the models. This diversification of prediction model allows to minimize the prediction error.
