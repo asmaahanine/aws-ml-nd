@@ -66,13 +66,13 @@ If I were given more time, I would spend more time on EDA and data transformatio
 
 Below is the line plot showing the top model scores for the runs of the project :
 
-![model_train_score_project.PNG](img/model_train_score_project.PNG)
+![model_train_score_project.png](img/model_train_score_project.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 Below are the different kaggle scores of the runs :
 
-![model_test_score_project.PNG](img/model_test_score_project.PNG)
+![model_test_score_project.png](img/model_test_score_project.png)
 
 ## Summary
 In this project, I first started by an exploratory data analysis which allowed to gain insight on the data and create new features. Then I implemented a bike sharing demand prediction model using autogluon, which I then finetuned. The score has improved through adding new features and the hyperparameter optimization and can be further improved through more hyperparameter tuning.
