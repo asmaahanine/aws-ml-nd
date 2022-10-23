@@ -29,17 +29,17 @@ We can deduce from the portion of pairplot below a few things :
 - For windspeeds above 40 we have a low count of rentals. High amounts of rentals have been recorded for windspeeds under 30m/s.
 - There is a high correlation between registered rentals and total number of rentals, as it is more easy to track registered rentals in comparison to casual rentals.
 
-![pairplot.png](img/pairplot.png)
+![pairplot.PNG](img/pairplot.PNG)
 
 #### Count timeseries plot 
 The plot of counted rentals timeseries below shows that the number of rentals increased from 2011 to 2013. We can also notice that within the same season, the number of rentals varies depending on the month. It would be interesting to add time features extracted from the dateime to the dataset to gain more insight on rental count variation for different granularity levels of time.
 
-![timeseries.png](img/timeseries.png)
+![timeseries.PNG](img/timeseries.PNG)
 
 #### Datetime column features extraction 
 From the plots below, we can notice that more bikes are rented at 08am and 5pm, which correspond to the start and end of work day hours.
 
-![datetime.png](img/datetime.png)
+![datetime.PNG](img/datetime.PNG)
 
 
 ### How much better did your model preform after adding additional features and why do you think that is?
@@ -66,13 +66,13 @@ If I were given more time, I would spend more time on EDA and data transformatio
 
 Below is the line plot showing the top model scores for the runs of the project :
 
-![model_train_score.png](img/model_train_score_project.png)
+![model_train_score_project.PNG](img/model_train_score_project.PNG)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 Below are the different kaggle scores of the runs :
 
-![model_test_score.png](img/model_test_score_project.png)
+![model_test_score_project.PNG](img/model_test_score_project.PNG)
 
 ## Summary
 In this project, I first started by an exploratory data analysis which allowed to gain insight on the data and create new features. Then I implemented a bike sharing demand prediction model using autogluon, which I then finetuned. The score has improved through adding new features and the hyperparameter optimization and can be further improved through more hyperparameter tuning.
