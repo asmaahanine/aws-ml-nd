@@ -16,6 +16,7 @@ The top ranked model is the weighted ensemble model. In fact, ensemble models ar
 
 #### Correlation matrix
 We can deduce from the correlation matrix below that the temp and atemp parameters are highly correlated. The link between both features is evident. The higher the temperature the higher the felt temperature is.In the next steps we may want to only keep one parameter as keeping both would imply duplicating information. Other correlations are not as high.
+
 ![corr.png](img/corr.png)
 
 #### Pairplot
@@ -27,14 +28,17 @@ We can deduce from the portion of pairplot below a few things :
 - Rentals tend to be higher for felt temperatures and recorded temperatures between 25 and 35 degrees.
 - For windspeeds above 40 we have a low count of rentals. High amounts of rentals have been recorded for windspeeds under 30m/s.
 - There is a high correlation between registered rentals and total number of rentals, as it is more easy to track registered rentals in comparison to casual rentals.
+
 ![pairplot.png](img/pairplot.png)
 
 #### Count timeseries plot 
 The plot of counted rentals timeseries below shows that the number of rentals increased from 2011 to 2013. We can also notice that within the same season, the number of rentals varies depending on the month. It would be interesting to add time features extracted from the dateime to the dataset to gain more insight on rental count variation for different granularity levels of time.
+
 ![timeseries.png](img/timeseries.png)
 
 #### Datetime column features extraction 
 From the plots below, we can notice that more bikes are rented at 08am and 5pm, which correspond to the start and end of work day hours.
+
 ![datetime.png](img/datetime.png)
 
 
