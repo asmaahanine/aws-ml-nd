@@ -1,1 +1,1 @@
-## You will find everything you need in the /Projects folder.
+## You will find everything you need in the /Project folder.
